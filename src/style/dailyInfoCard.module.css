@@ -1,0 +1,59 @@
+.DailyInfoCard {
+    background-color: var(--appBgColor);
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0; 
+    width: 100%;
+    min-height: 100%;
+    gap: 2rem;
+    border-radius: 1em;
+    box-shadow: 2px 5px 12px var(--appBgColor);
+}
+
+
+
+.DataCard {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    max-height: 200px;
+    border-radius: 1em;
+    box-shadow: 2px 5px 12px #cccccc;
+    transition: .3s ease-in-out;  
+}
+
+.DataCard .Data_title {
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+
+.Data_title > span {
+    width: 30%;
+    text-align: center;
+    border-bottom: 1px solid var(--textColor);
+    font-weight: 600;
+}
+
+.Data_description {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    font-weight: 600;
+    overflow: hidden !important;
+    margin: 0;
+    line-height: 1;
+}
+
+.Data_description p {
+    overflow: hidden !important;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+    
+
+.DataCard:hover{
+    transform: scale(1.02);
+}

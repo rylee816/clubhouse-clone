@@ -1,0 +1,27 @@
+[
+    {
+    "time": "7:00 PM",
+    "title": "MIND BODY GAME",
+    "description": "Talk Less Do More" 
+},
+{
+    "time": "9:00 PM",
+    "title": "Clubhouse Town Hall",
+    "description": "Current Events"
+},
+  {
+      "time": "10:00 PM",
+      "title": "ISM.EARTH",
+      "description": "What Is The Connection Between Us?"
+  },
+  {
+      "time": "11:30 PM",
+      "title": "Calisthenics",
+      "description": "Get The Most From Your Home Workout to Build"
+  },
+  {
+      "time": "test",
+      "title": "test",
+      "description": "This is a very long description to test out the ellipses"
+  }
+]

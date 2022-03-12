@@ -1,0 +1,21 @@
+
+    {
+      "members": [
+        {
+          "first_name": "John",
+          "last_name": "Frusciante"
+        },
+        {
+          "first_name": "Chad",
+          "last_name": "Smith"
+        },
+        {
+          "first_name": "Josh",
+          "last_name": "Klinghoffer"
+        },
+        {
+          "first_name": "Anthony",
+          "last_name": "Keidis"
+        }
+      ]
+    }

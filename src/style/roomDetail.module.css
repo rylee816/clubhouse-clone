@@ -1,0 +1,166 @@
+.roomDetailContainer {
+    height: 100%;
+    background-color: #F2f0E4;
+    margin: -1.5em -1em;
+}
+
+.roomDetailContainer .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 1.5em 1.5em .5em;
+}
+
+.head .arrow_icon {
+    width: 25px;
+    transform: rotate(-90deg);
+    margin-top: .5em;
+}
+
+.head .profile_img {
+    width: 40px;
+    border-radius: .8em;
+    margin-left: 1.2em;
+}
+
+.head span {
+    font-size: 1em;
+    margin-left: .5em;
+}
+
+.head svg {
+    font-size: 1.5em;
+}
+
+.roomDetailCard {
+    background-color: white;
+    padding: 1em 1em 3em 1em;
+    border-radius: 1.5em 1.5em 0 0 ;
+    height: 75vh;
+    overflow: auto;
+}
+
+.roomDetailCard h6 {
+    font-size: 0.675em;
+    color: var(--textColor);
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+.roomDetailCard img {
+    width: 70px;
+    border-radius: 1.7em;
+}
+
+.memberContainer {
+    text-align: center;
+    width: 70px;
+    position: relative;
+}
+
+.memberContainer .audio_icon {
+    position:absolute;
+    right: -5px;
+    bottom: 36px;
+    z-index: 5;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px #cccccc;
+}
+
+.memberContainer .audio_icon svg {
+    color: #28ae61;
+}
+
+.memberContainer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+}
+
+.memberContainer span {
+    font-size: 2.5em;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #28ae61;
+    color: white;
+    margin-right: 0.1em;
+    line-height: 0.8;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+.footer button {
+    background-color: #e7e4d5;
+    border: none;
+    border-radius: 2em;
+
+}
+
+.footer button svg {
+    width: 30px;
+}
+
+.footer > button {
+    display: flex;
+    align-items: center;
+    padding: .3em 1em;
+    color: #28ae61;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.footer > button svg {
+    color: var(--textColor);
+}
+
+.footer > div {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer > div > button {
+    line-height: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div > button:first-child{
+    font-size: 1.5em;
+    margin-right: .8em;
+}
+
+.footer > div >button:nth-child(2){
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+
+.footer > div >button:nth-child(3){
+    font-size: 1.2em;
+}
+
+

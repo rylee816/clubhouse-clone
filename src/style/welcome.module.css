@@ -1,0 +1,89 @@
+.WelcomeContainer {
+    padding: 3em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--appBgColor);
+}
+
+.WelcomeContainer h1 {
+    font-size: 1.7em;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--textColor);
+}
+
+.WelcomeInfo {
+    height: 253px;
+    overflow: auto;
+    font-weight: 600;
+
+}
+
+.WelcomeInfo p {
+    margin-bottom: 2em;
+    color: var(--textColor);
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.actionBtn {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.actionBtn > a:last-child {
+    color: var(--btnBgColor);
+    font-size: .875em;
+    font-weight: 400;
+}
+
+.WelcomeContainer+.action_btn button{
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+
+.WelcomeContainer+.action_btn button svg {
+    font-size: 1.3em;
+}
+
+.WelcomeContainer + .action_btn {
+    display: flex;
+    align-items: center;
+    padding: 4em 1.5em 2em 1.5em;
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(transparent 20%, var(--appBgColor));
+}
+
+.WelcomeContainer + .action_btn > button:first-child {
+    border-radius: 2em;
+    background-color: #28AE61;
+    color: white;
+    padding: .3em 1em;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.WelcomeContainer + .action_btn > button:nth-child(2){
+    line-height: 1;
+}
+
+.WelcomeContainer + .action_btn > button:nth-child(2) svg {
+    color: var(--textColor);
+}
